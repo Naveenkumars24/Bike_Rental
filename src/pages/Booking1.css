@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    padding: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 80px;
+}
+#summary{
+    color: rgb(0, 0, 0);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+
+    border-radius: 20px;
+    height: 600px;
+}
+#summary h3{
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    color: rgb(96, 132, 25);
+}
+.booking-desc{
+    display: flex;
+}
+.box-left{
+    /* background-color: rgb(0, 0, 0); */
+    width: 40%;
+    height: 80%;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.box-left img{
+    width: 100%;
+}
+.box-left b{
+    /* background-color: aqua; */
+    display: block;
+    width: 100%;
+    height: fit-content;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.box-right{
+    width: 100%;
+    text-align: center;
+}
+#username{
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+    
+}
+#userno{
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+}
+#usermail{
+    margin: 20px;
+    padding: 10px;
+    width: 400px;
+}
+#confirm-btn{
+    padding: 15px;
+    background-color: #f9c733;
+    color: black;
+    border-radius: 10px;
+}
+#paymentoption{
+    width: 85%;
+    margin-left: 80px;
+    height: 70px;
+    /* background-color: #f9c733; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+#paymentoption .cashon{
+    width: 70%;
+    height:70px;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow : 0 5px 7px rgba(0, 0, 0, 0.1);
+    
+}
+#paymentoption .scan{
+    width: 70%;
+    height:70px;
+    /* background-color: aqua; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow : 0 5px 7px rgba(0, 0, 0, 0.1);
+}
+#paymentoption .payonline{
+    width: 70%;
+    height:70px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow : 0 5px 7px rgba(0, 0, 0, 0.1);
+}
+
+
+.scan-page-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Adjust as needed to overlay other content */
+  }
+  
+  .scan-page {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1100; /* Ensure the modal is above the overlay */
+    text-align: center;
+  
+  }
+  
+  .scan-page h2 {
+     display: inline;
+    margin-left: 34.5px;
+    font-size: large;
+    color: #494646;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+
+  }
+  .scan-page img {
+    width: 300px;
+    height: 350px;
+  }
+  .scan-page button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+   
+    padding-bottom: 13px;
+    margin-left: 170px;
+   
+    color: #868383;
+   
+  
+  }
+
+.scan-page p{
+    
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 146px;
+    margin-top: 10px;
+    border: 6px solid #a7a4a4;
+   
+
+
+}
+.radio-label {
+    margin-left: 8px; /* Adjust the margin as needed */
+  }
+.scan img{
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+}
+.payonline img{
+    width: 40px;
+    height: 40px;
+    margin-right: 6px;
+}
+.confirmation-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .confirmation-content {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .confirmation-content img {
+    max-width: 100%;
+    height: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .confirmation-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .confirmation-content p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .confirmation-content button {
+    background-color: #3399cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .confirmation-content button:hover {
+    background-color: #2878a4;
+  }
+  

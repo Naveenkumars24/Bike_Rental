@@ -1,0 +1,102 @@
+.rv {
+    min-height: 100vh;
+    padding: 20px;
+    background: url("Review.jpeg");
+  }
+  
+  .para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .para h1{
+    color: white;
+letter-spacing: 1px;
+font-weight: bold;
+font-family: Helvetica;
+font-size: em;
+text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); 
+  }
+  .rvform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10%;
+    margin-top: 10%;
+    backdrop-filter: blur(10px); 
+    background-color: rgba(255, 255, 255, 0.055);
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px; 
+    height: 400px;
+  }
+  
+  .name,
+  .email {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.616); /* Adjust the alpha channel for transparency */
+    color: black;
+    outline: none;
+    font-size: 16px;
+    
+  }
+  .des{
+    margin-bottom: 10px;
+    padding: 15px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.616); /* Adjust the alpha channel for transparency */
+    color: black;
+    outline: none;
+    font-size: 16px;
+    height:150px
+
+  }
+  
+  .rating {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 20px;
+  }
+  
+  .star-rating {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .star {
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 0 5px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .star.selected {
+    color: gold;
+  }
+  .submit-btn {
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+   height:80px;
+    width:100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left:130px;
+    cursor: pointer;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }

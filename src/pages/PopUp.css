@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+  }
+ 
+  
+  
+  #heropage{
+    position: relative;
+    /* background: url(https://www.pixelstalk.net/wp-content/uploads/images6/Motorcycle-Wallpaper-Free-Download.jpg);
+    background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+   
+  
+   
+  
+  }
+  #background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* opacity:0.9; */
+    filter: brightness(0.5);
+     z-index: -4; 
+    /* Adjust the opacity/brightness as needed */
+  }
+   
+  
+  
+  /* ----------quotes container--------------- */
+  /* #quotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 350px;
+    /* background-color: aqua; */
+    /* padding: 20px;
+    position: relative;
+    /* z-index: 1; */
+  /* }
+  #quotes h1{
+  color: white;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 4em;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); 
+
+  }  */
+  
+  /* -----------searchcontainer--------------------- */
+  /* .dtcontainer{
+    position: absolute;
+    top: 420px;
+    
+    padding: 30px;
+    
+
+    background-color: rgba(255, 255, 255, 0.175);
+    margin-left: 500px;
+
+  } */
+  /* .dtcontainer p{
+    color: white;
+  }
+  #pickupdate{
+    background-color: rgb(114, 144, 46);
+    border: none;
+    width: 120px;
+    height: 30px;
+    color: black;
+    padding-left: 10px;
+
+  }
+  #dropdate{
+    background-color: rgb(144, 46, 46);
+    border: none;
+    width: 120px;
+    height: 30px;
+    color: black;
+    margin-left: 10px;
+    padding-left: 10px;
+  }
+  #pickuptime{
+    width: 85px;
+    height: 30px;
+    
+    background-color: rgb(114, 144, 46);
+  }
+  #droptime{
+    width: 85px;
+    height: 30px;
+    border: none;
+    background-color: rgb(144, 46, 46);
+  }
+  #rent-btn{
+    background-color: #f9c733;
+    color: black;
+    padding: 8px;
+    border: none;
+
+    margin-left: 150px;
+  } */
+
+  .scontainer{
+    width: 75%;
+    height: 30%;
+    background-color: #eaf0f0;
+    z-index: -1;
+    display: flex;
+    margin: auto;
+    position: relative;
+    display: flex;
+    margin-bottom: 50px;
+    z-index: 1;
+    
+    
+  }
+  .dtcontainer{
+    width: 90%;
+  height: 40%;
+  background-color: white;
+ 
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+
+  display: flex;
+  position: relative;
+  
+ 
+  
+  }
+
+  .dtcontainer #pickupdate{
+    height: 100%;
+    width: 20%;
+  }
+  .dtcontainer #dropdate{
+    height: 100%;
+    width: 20%;
+  }
+  .dtcontainer #pickuptime{
+    height: 100%;
+    width: 20%;
+  }
+  .dtcontainer #droptime{
+    height: 100%;
+    width: 20%;
+  }
+  .dtcontainer #rent-btn{
+    height: 100%;
+    width:200%;
+  }
+  #pickupdate,#pickuptime,#dropdate,#droptime{
+    text-align: center;
+    font-size: large;
+    font-weight:  bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+  }
+
+  #rent-btn{
+    text-align: center;
+    font-size: large;
+    font-weight:  bold;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#001f73;
+    border-color: #001f73;
+    border:none;
+  }
+
+  .slider-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+   
+}
+
+.slider-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1100px;
+    z-index: -4;
+      
+}

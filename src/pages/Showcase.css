@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box; 
+}
+header{
+    height: 70px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#body{
+    padding: 30px;
+}
+#showcase-1{
+    /* background-color: black; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#showcase-2{
+    /* background-color: black; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#showcase-3{
+    /* background-color: black; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#showcase-4{
+    /* background-color: black; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#bike-box{
+    padding: 10px;
+    padding-top: 30px;
+    /* background-color: darkgray; */
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    width: 400px;
+    height: 450px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#bike-box:hover {
+    box-shadow: 0px 0px 10px black;
+}
+#bike-box:hover #book{
+    box-shadow: 0px 0px 10px black;
+
+    color :#f9c733;
+    background-color: black;
+    transform: scale(1.08);
+    transition: all 0.5s ease;
+}
+#bike-name{
+    text-align: center;
+    font-size: 20px;
+}
+#bike-img{
+    width:100%;
+    height: 50%;
+}
+#bike-img img{
+    margin-left: 65px;
+    margin-top: 20px;
+    width: 260px;
+}
+#bike-desc{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    color: white;
+    background-color: rgb(199, 232, 135);
+    padding: 10px;
+    margin-top: 30px;
+}
+#date-time{
+    display: flex;
+    justify-content: space-between;
+}
+#from-dt{
+color: black;
+}
+#to{
+    background: #212121;
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 2.4;
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.8rem;
+}
+#to-dt{
+color: black;
+}
+#price-book{
+    margin-top: 15px;
+    /* background-color: black; */
+    color: black;
+   
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+#book{
+    padding: 10px;
+    /* background-color: rgb(45, 45, 119); */
+    background-color: #f9c733;
+    color: black;
+    font-weight: 600;
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+}
